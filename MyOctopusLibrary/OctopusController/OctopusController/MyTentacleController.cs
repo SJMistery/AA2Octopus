@@ -35,16 +35,16 @@ namespace OctopusController
                     //TODO: in _endEffectorsphere you keep a reference to the base of the leg
                    
                     for(int i=0;i<3;i++){
-                        Bones[i] = prov.GetChild(0);
-                        prov = prov.GetChild(0);
+                        Bones[i] = prov.GetChild(1);
+                        prov = prov.GetChild(1);
                     }
                     _endEffectorSphere[0] = prov;
                     break;
                 case TentacleMode.TAIL:
                     for (int i = 0; i < 5; i++)
                     {
-                        Bones[i] = prov.GetChild(0);
-                        prov = prov.GetChild(0);
+                        Bones[i] = prov.GetChild(1);
+                        prov = prov.GetChild(1);
                     }
                     _endEffectorSphere[0] = prov;
                     //TODO: in _endEffectorsphere you keep a reference to the red sphere 

@@ -94,7 +94,7 @@ namespace OctopusController
                 
 
             }
-            float margin = 12;
+            float margin = 1.2F;
             do
             {
                 for (int i = 49; i > 0; i--)

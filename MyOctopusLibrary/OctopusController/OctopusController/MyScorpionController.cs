@@ -79,7 +79,42 @@ namespace OctopusController
         //TODO: implement fabrik method to move legs 
         private void updateLegs()
         {
+            for (int i=0;i<6;i++)
+            {
+                float margin = 0.6F;
+                Transform currenTarget = legTargets[i];
+                Transform currentBase = legFutureBases[i];
+                do
+                {
+                    float[] distanceVects = { 0, 0, 0 };
+                    for(int j = 0; j < 2; j++)
+                    {
+                        distanceVects[j] = Vector3.Distance(_legs[i].Bones[j].position, _legs[i].Bones[j + 1].position);
+                    }
+                    _legs[i].Bones[2].position = currenTarget.position;
+                    for (int j = 2; j > 0; j--)
+                    {
+                        Transform inverter = _legs[i].Bones[j-1];
+                        float distanceReal = Vector3.Distance(_legs[i].Bones[j-1].position, _legs[i].Bones[j].position);
+                        Vector3 reposition = _legs[i].Bones[j].position - _legs[i].Bones[j-1].position;
+                        reposition.Normalize();
+                        reposition = reposition*distanceVects[j-1];
 
+                    }
+
+                    _legs[i].Bones[0].position = currentBase.position;
+                    for (int j = 1; i < 3; j++)
+                    {
+                        Transform inverter = _legs[i].Bones[j];
+                        float distanceReal = Vector3.Distance(_legs[i].Bones[j - 1].position, _legs[i].Bones[j].position);
+                        Vector3 reposition = - _legs[i].Bones[j].position + _legs[i].Bones[j - 1].position;
+                        reposition.Normalize();
+                        reposition = reposition * distanceVects[j - 1];
+                    }
+                } while (Vector3.Distance(currenTarget.position, _legs[i].Bones[2].position) > margin);
+
+                
+            }
         }
         #endregion
     }
