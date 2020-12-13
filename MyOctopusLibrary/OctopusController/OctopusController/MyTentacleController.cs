@@ -29,36 +29,34 @@ namespace OctopusController
             //you may want to use a list, and then convert it to an array and save it into _bones
             tentacleMode = mode;
 
+            Transform prov = root;
             switch (tentacleMode){
                 case TentacleMode.LEG:
                     //TODO: in _endEffectorsphere you keep a reference to the base of the leg
-                    Transform[3] boneTr;
-                    Transform prov = root;
+                   
                     for(int i=0;i<3;i++){
-                        Transform[i] = prov->FindChild;
-                        prov = prov->FindChild;
+                        Bones[i] = prov.GetChild(0);
+                        prov = prov.GetChild(0);
                     }
-                    _endEffectorSphere = prov;
+                    _endEffectorSphere[0] = prov;
                     break;
                 case TentacleMode.TAIL:
-                    //TODO: in _endEffectorsphere you keep a reference to the red sphere 
-                    Transform[5] boneTr;
-                    Transform prov = root;
-                    for(int i=0;i<5;i++){
-                        Transform[i] = prov->FindChild;
-                        prov = prov->FindChild;
+                    for (int i = 0; i < 5; i++)
+                    {
+                        Bones[i] = prov.GetChild(0);
+                        prov = prov.GetChild(0);
                     }
-                    _endEffectorSphere = prov;
+                    _endEffectorSphere[0] = prov;
+                    //TODO: in _endEffectorsphere you keep a reference to the red sphere 
                     break;
                 case TentacleMode.TENTACLE:
-                    //TODO: in _endEffectorphere you  keep a reference to the sphere with a collider attached to the endEffector
-                    Transform[50] boneTr;
-                    Transform prov = root;
-                    for(int i=0;i<50;i++){
-                        Transform[i] = prov->FindChild;
-                        prov = prov->FindChild;
+                    for (int i = 0; i < 50; i++)
+                    {
+                        Bones[i] = prov.GetChild(0);
+                        prov = prov.GetChild(0);
                     }
-                    _endEffectorSphere = prov;
+                    _endEffectorSphere[0] = prov;
+                    //TODO: in _endEffectorphere you  keep a reference to the sphere with a collider attached to the endEffector
                     break;
             }
             return Bones;
