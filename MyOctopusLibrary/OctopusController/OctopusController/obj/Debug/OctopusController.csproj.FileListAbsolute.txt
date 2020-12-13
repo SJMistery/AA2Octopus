@@ -36,3 +36,21 @@ E:\Trabajo\Classes Enti\Practicas2019-20\delivery2-2019-20\MyOctopusLibrary\Octo
 E:\Trabajo\Classes Enti\Practicas2019-20\delivery2-2019-20\MyOctopusLibrary\OctopusController\OctopusController\obj\Debug\OctopusController.csproj.CopyComplete
 E:\Trabajo\Classes Enti\Practicas2019-20\delivery2-2019-20\MyOctopusLibrary\OctopusController\OctopusController\obj\Debug\OctopusController.dll
 E:\Trabajo\Classes Enti\Practicas2019-20\delivery2-2019-20\MyOctopusLibrary\OctopusController\OctopusController\obj\Debug\OctopusController.pdb
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\OctopusController.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\OctopusController.pdb
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\Unity.Cecil.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\Unity.SerializationLogic.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\Unity.DataContract.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\ExCSS.Unity.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\Unity.Legacy.NRefactory.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\Unity.UNetWeaver.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\Unity.CecilTools.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\Unity.Cecil.Pdb.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\Unity.Cecil.Mdb.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\UnityEditor.xml
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\bin\Debug\UnityEngine.xml
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\obj\Debug\OctopusController.csprojAssemblyReference.cache
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\obj\Debug\OctopusController.csproj.CoreCompileInputs.cache
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\obj\Debug\OctopusController.csproj.CopyComplete
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\obj\Debug\OctopusController.dll
+d:\Users\Joan\Desktop\TemporaryGiTrasHub\AA2Octopus\MyOctopusLibrary\OctopusController\OctopusController\obj\Debug\OctopusController.pdb
